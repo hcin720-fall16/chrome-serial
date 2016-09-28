@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<!-- Chrome Apps can be tricky with security. It's best to
+			download local copies of any external Javascript libraries you
+			need to use rather than trying to load them dynamically. -->
+		<script src="jquery-3.1.1.min.js"></script>
+
+		<!-- Here's the script that does serial port stuff, which you can
+			modify. -->
+		<script src="serial_display.js"></script>
+  </head>
+  <body>
+    <div>Hello, world!</div>
+		<!-- Note that the height here is the same as specified in background.js -->
+		<div id="log" style="overflow:scroll; height:500px"></div>
+  </body>
+</html>
